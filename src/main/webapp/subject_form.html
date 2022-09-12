@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3> Add New Subject </h3>
+<hr/>
+
+<form method="post" action="AddSubject">
+    Subject Id:<input type="text" name="subjectId" required/><br>
+    Subject Title:<input type="text" name="subjectTitle" required/><br>
+    Credit:<input type="number" name="credit" required max="6" min="1"/><br>
+    <input type="submit" value="Add">
+</form>
+<hr/>
+<a href="index.jsp">[ Back ]</a>
+</body>
+</html>
+
+<!--&lt;!&ndash; ต่างกับ jsp เพราะ ดึงข้อมูลไม่ได้-->
+<!--1. ถ้าไม่ระบุ default of method is will be get-->
+<!--2.action: input servless name-->
+<!--3.required รับค่าที่จะส่งกลับ &ndash;&gt;-->
