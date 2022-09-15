@@ -22,7 +22,7 @@ public class AddSubjectServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String id = request.getParameter("subjectId");
-        String title = request.getParameter("subjectTitle");
+        String title = request.getParameter("subjectTitle"); //ชื่อ form
         String credit = request.getParameter("credit");
         Subject subject = new Subject(id,title,Double.valueOf(credit)) ;
         request.setAttribute("s",subject); //s is object of subject

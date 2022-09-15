@@ -13,6 +13,7 @@
 <a href="subject_form.html">Add New Subject</a>
 <a href="AddNumber.html">Add number</a>
 <a href="TestRequestParameter">Favorite Subjects</a>
+<a href="InputScore.html">GPA CAL</a>
 <!--ส่งไปแบบ get ถ้าเป็น post จะต้องส่งแบบ form -->
 </body>
 </html>

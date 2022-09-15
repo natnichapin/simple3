@@ -27,7 +27,7 @@
     <input type="submit">
 </form>
 <hr/>
-Favorite Subject for ${param.name} Grade: ${param.grade}:: <br>
+Favorite Subject for ${param.name} Grade: ${param.grade}:: <br> <!-- เอาชื่อ ในjava.ชื่อที่ส่งไป เก็บใส่ Var และไปแสดงผล -->
 <c:forEach items="${paramValues.fav_subjects}" var="paramValue">
    &nbsp; &nbsp; &nbsp; &nbsp; ${paramValue} <br>
 </c:forEach>
