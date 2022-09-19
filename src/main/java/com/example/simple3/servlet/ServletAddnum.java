@@ -36,7 +36,9 @@ public class ServletAddnum extends HttpServlet {
         request.setAttribute("resultDivided",resultDivided);
         request.setAttribute("x",x);
         request.setAttribute("y",y);
-        request.getRequestDispatcher("/addnum.jsp").forward(request,response); //ส่งต่อ
+        //request.getRequestDispatcher("/addnum.jsp").forward(request,response); //ส่งต่อ
+        getServletContext().getRequestDispatcher("/addnum.jsp").forward(request,response); //ส่งต่อ
+
     }
 }
 
